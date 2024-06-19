@@ -1,7 +1,7 @@
 // Global Variables
 
 var usersArray = [];
-if (localStorage.getItem("bookmarks") !== null) {
+if (localStorage.getItem("users") !== null) {
     usersArray = JSON.parse(localStorage.getItem("users"));
 }
 function register() {
