@@ -1,0 +1,28 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #18191a;
+    color: white;
+}
+
+.login-form,
+.signin-form {
+    height: 80%;
+    width: 85%;
+    background-color: #242526;
+    border: 1px solid #3a3b3c;
+    border-radius: 10px;
+}
+
+input {
+    background-color: #242526 !important;
+    color: white !important;
+}
+
+input:focus {
+    border-color: white !important;
+    box-shadow: 0 0 0 0.25rem rgb(61, 61, 61) !important;
+}
+
+input::placeholder {
+    color: rgb(195, 195, 195) !important;
+}
