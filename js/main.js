@@ -39,7 +39,7 @@ function register() {
         }
     }
 
-    // If user does not exist, proceed with registration
+    // Proceed with registration
     var user = {
         userName: userNameInput.value,
         userEmail: userEmailInput.value,
@@ -48,11 +48,9 @@ function register() {
     usersArray.push(user);
     localStorage.setItem("users", JSON.stringify(usersArray));
 
-    // Reset error message and show success message
     errorInput.classList.add("d-none");
     successInput.classList.remove("d-none");
 
-    // Redirect after 2 seconds
     setTimeout(function () {
         window.location.href = "index.html";
     }, 2000);
