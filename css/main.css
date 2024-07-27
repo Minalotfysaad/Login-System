@@ -9,7 +9,7 @@ body {
     height: 99vh;
     z-index: -1;
 }
-.container{
+.container.form-container{
     position: relative;
     z-index: 1;
 }
